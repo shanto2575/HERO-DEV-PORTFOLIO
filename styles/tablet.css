@@ -1,0 +1,52 @@
+@media screen and (min-width:557px) and (max-width:992px){
+    .container{
+        width: 90%;
+    }
+    header{
+        background-position: 10px 30px, bottom right;
+        padding-top: 40px;
+    }
+    nav .menu{
+        gap: 20px;
+    }
+    #banner{
+        flex-direction: column;
+        margin: 40px 20px;
+    }
+    #banner .banner-content{
+        text-align: center;
+    }
+    #banner .banner-content h1{
+        font-size: 56px;
+    }
+    #banner .banner-image img{
+        max-width: 100%;
+    }
+    #about .about-container {
+    padding: 80px 40px;
+}
+#skills .skills-container .skill-box{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.skill-box .skill-card{
+    max-width: 45%;
+}
+#about, #skills, #resume{
+    padding: 50px 20px;
+}
+footer .footer-container{
+    flex-direction: column;
+    padding: 50px 20px;
+}
+.footer-container .social{
+    width: 100%;
+}
+form{
+    width: 100%;
+}
+.footer-container form input[type="text"], .footer-container form textarea{
+    width: 100%;
+}
+}
